@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+
+html {
+	background-color: black;
+}
+
+body {
+	background-color: rgb(200,200,200);
+	max-width: 800px;
+	padding: 0;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+
+.buttonOrange {
+	background-color: rgb(70,70,70);
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border:2px solid rgb(255,128,0);
+}
+
+.buttonOrange:hover {
+	background-color: rgb(15,165,255);
+	border:2px solid rgb(15,165,255);
+}
+
+header {
+	padding: 10 0 0 0;
+	background-color: rgb(150, 150, 150);
+}
+
+header img.topLogo {
+	display: block;
+	/*margin-top: 10px;*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+header a.buttonOrange {
+	display: block;
+	width: 100px;
+	text-align: center;
+	/*margin-top: 0px;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -50px;
+	position: relative;
+	top: -45px;
+    right: -320px;
+}
+
+header p.subTitle {
+	display: block;
+	font-size: x-large;
+	font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 20px 0 0 0;
+}
+
+#divMenu {
+	background-color: rgb(150, 150, 150);
+}
+
+ul#menu li {
+    display:inline;
+}
+
+ul#menu li {
+    background-color: rgb(70,70,70);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#menu {
+	background-color: rgb(150, 150, 150);
+    margin: 0;
+}
+
+ul#menu li:hover {
+    background-color: rgb(255,128,0);
+} 
+
+hr {
+	margin: 2px 0 0 0;
+	border: 4px solid rgb(70, 70, 70);
+}
+
+article {
+	background-color: rgb(200,200,200);
+	margin: 30px;
+}
+
+article .titre{
+	/*display: inline;*/
+	background-color: rgb(181,207,219);
+	border: 1px solid black;
+	height: 32px;
+	/*padding: 6px 6px 6px 20px;*/
+	/*width: 180px;*/
+	clear: left;
+}
+
+article ul{
+	/*margin: 0;*/
+}
+
+h1 {
+	display: inline;
+    color: black;
+    /*font-family:verdana, sans-serif;
+    font-size:100%;   */ 
+    /*padding:1px;
+    margin: 0px;*/
+}
+
+.carreBleu {
+	float: left;
+	background-color: rgb(15,165,255);
+	width: 16px;
+    height: 16px;
+    margin: 8px;
+}
+
+p  {
+
+}
+
+footer {
+	background-color: gray;
+}
+
+footer div {
+	width: 240px;
+	/*height: 30px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 10px;*/
+	/*padding: 0;*/
+}
+
+footer div p {
+	display: inline;
+	position: relative;
+	left: 10px;
+	bottom: 36px;
+
+}

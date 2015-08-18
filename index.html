@@ -1,1 +1,106 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>openXsensor</title>
+<link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+	<header>
+		<div>
+			<img class="topLogo" alt="openXsensor logo" src="images/OXS_Logo.png">
+			<a class="buttonOrange" href="https://github.com/openXsensor">Go
+				to GitHub</a>
+			<p class="subTitle">Arduino based Telemetry for the RC world !</p>
+		</div>
+	</header>
+
+	<div id="divMenu">
+		<ul id="menu">
+			<li>Home</li>
+			<li>News</li>
+			<li>Downloads</li>
+			<li>Documentation</li>
+		</ul>
+		<hr>
+	</div>
+
+	<article>
+		<div class="titre">
+			<div class="carreBleu"></div>
+			<h1>Introduction</h1>
+		</div>
+		<p>
+			OpenXsensor is the evolution of OpenXvario and extends it to
+			multi-sensing applications.<br> Discussion about this project: <a
+				href="http://openrcforums.com/forum/viewforum.php?f=86">openRC
+				forum thread</a> <br>Based on an Arduino platform, it connects to
+			different sensors and transmits the measurements via RC industry
+			telemetry protocols.
+		</p>
+		<p>It is now compatible with :</p>
+		<ul>
+			<li>Multiplex receivers</li>
+			<li>Frsky receivers : D series (HUB protocol) and X series
+				(Smart Port protocol).</li>
+		</ul>
+	</article>
+
+	<article>
+		<div class="titre">
+			<div class="carreBleu"></div>
+			<h1>Functionalities provided at your choice</h1>
+		</div>
+
+		<ul>
+			<li>Altimeter / Variometer (like FrSky Variometer low/high
+				precision sensor)
+				<ul>
+					<li>Can use a second barometric sensor and switch with TX
+						while flying</li>
+				</ul>
+			</li>
+			<li>Air Speed
+				<ul>
+					<li>Can also be used by oXs to compensate vertical speed
+						measurements (dTE)</li>
+				</ul>
+			</li>
+			<li>Up to 6 voltages measurements
+				<ul>
+					<li>Battery voltage measurements (like FrSky FBVS-01)</li>
+					<li>Lipo battery cell measurements (like FrSky FLVS-01 or
+						FLVSS)</li>
+					<li>...</li>
+				</ul>
+			</li>
+			<li>RPM sensor</li>
+			<li>Current sensor (like FrSky FAS or FCS)
+				<ul>
+					<li>Can calculate the consumed current</li>
+				</ul>
+			</li>
+			<li>Can use any sensor outputting voltage
+				<ul>
+					<li>Temperature sensor</li>
+					<li>...</li>
+				</ul>
+			</li>
+		</ul>
+	</article>
+
+	<footer>
+		<hr>
+		
+		<div>
+			<img alt="oXs logo" src="images/OXS_Logo_min.png">
+			<p>© 2015 openXsensor</p>
+		</div>
+
+	</footer>
+
+</body>
+
+</html>
