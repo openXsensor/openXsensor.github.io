@@ -26,7 +26,7 @@ body {
 }
 
 header {
-	padding: 10 0 0 0;
+	padding: 10px 0 0 0;
 	background-color: rgb(150, 150, 150);
 }
 
@@ -64,24 +64,29 @@ header p.subTitle {
 	background-color: rgb(150, 150, 150);
 }
 
-ul#menu li {
-    display:inline;
-}
-
-ul#menu li {
-    background-color: rgb(70,70,70);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
 ul#menu {
 	background-color: rgb(150, 150, 150);
     margin: 0;
 }
 
-ul#menu li:hover {
-    background-color: rgb(255,128,0);
+ul#menu li {
+	display:inline;
+    background-color: rgb(70,70,70);
+    color: white;
+    padding: 10px 20px;
+}
+
+ul#menu li.selected {
+	background-color: rgb(255,128,0);
+}
+
+ul#menu li.notSelected:hover {
+    background-color: rgb(200,200,200);
+} 
+
+ul#menu li a {
+	color: white;
+    text-decoration: none;
 } 
 
 hr {
